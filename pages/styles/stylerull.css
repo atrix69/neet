@@ -1,0 +1,40 @@
+body{
+	background: LightSlateGray;
+
+}
+
+*{
+	text-decoration: none;
+}
+
+#neet{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
+	color: white;
+}
+p{
+	padding:0px 180px 0px 180px;
+	font-size: 20px;
+}
+
+h1{
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+}
+.center{
+	margin-left: 300px;
+	width: 60%;
+	background: SkyBlue;
+}
+
+#backtmp{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	color: white;
+}
