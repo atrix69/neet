@@ -14,22 +14,44 @@ body{
 	align-items: center;
 	font-size: 35px;
 	color: white;
+  background-color: DarkGrey;
+  padding: 10px;
+   border:2px solid black;
+  margin: 20px 500px 20px 500px;
 }
 
 .container{
 	width: 80%;
 	margin: 30px auto;
 	overflow: hidden;
+  background-color:SlateGray;
+   border:2px solid black;
 
 }
 
+.center-text{
+  display: flex;
+  justify-content: center;
+   border:2px solid black;
+   margin:20px 500px 20px 500px;
+   padding: 20px;
+}
+
+
 .container ul li{
+  background-color: DarkGrey;
+  padding: 10px;
+  border:1px solid black;
 	list-style: none;
 	float: left;
 	font: 10px/1.5 Verdana, Helvetica;
 	width: 16%;
 	margin: 2% 2% 40px 2%;
 
+}
+
+.container ul li:hover{
+  transform: scale(1.2);
 }
 
 .container ul li a{
@@ -50,6 +72,10 @@ body{
 	align-items: center;
 	font-size: 18px;
 	color: white;
+  background-color: DarkGrey;
+   padding: 10px;
+   border:2px solid black;
+  margin: 20px 500px 20px 500px;
 }
 
 html{
@@ -112,9 +138,6 @@ html{
   top: 5px;
   right: 10px;
   cursor: pointer;
+
 }
 
-.center-text{
-	display: flex;
-	justify-content: center;
-}

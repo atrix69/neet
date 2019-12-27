@@ -14,20 +14,20 @@ body{
 	align-items: center;
 	font-size: 35px;
 	color: white;
+	background-color: DarkGrey;
+  padding: 10px;
+   border:2px solid black;
+  margin: 20px 500px 20px 500px;
 }
 
-#backtmp{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 18px;
-	color: white;
-}
+
 
 .container{
 	width: 80%;
 	margin: 30px auto;
 	overflow: hidden;
+	background-color:SlateGray;
+   border:2px solid black;
 
 }
 
@@ -37,8 +37,15 @@ body{
 	font: 10px/1.5 Verdana, Helvetica;
 	width: 16%;
 	margin: 2% 2% 40px 2%;
+	background-color: DarkGrey;
+	border:1px solid black;
+	padding: 10px;
+	margin: 10px;
 
 }
+.container ul li:hover{
+		transform: scale(1.1);
+	}
 
 .container ul li a{
 	color: black;
@@ -48,6 +55,16 @@ body{
 	max-width: 100%;
 }
 
-.container ul li a img:hover{
-	transform: scale(1.1);
+
+#backtmp{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	color: white;
+	background-color: DarkGrey;
+   padding: 10px;
+   border:2px solid black;
+  margin: 20px 500px 20px 500px;
+
 }
